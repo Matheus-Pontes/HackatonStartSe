@@ -1,0 +1,89 @@
+/* Importando font Roboto do google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Valores iniciais para todos os elementos da página HTML */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Variaveis de cores para acesso rápido */
+:root {
+    --preto: #000;
+    --cinza: ##EEEFE7;
+    --verde: #11C76F;
+    --azul: #365AD6;
+    --branco: #fff;
+}
+
+a {
+    color: var(--branco);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+header {
+    background: var(--verde); 
+    padding: 12px;
+}
+
+header.travaNoTopo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--verde);   
+    height: 8vh;
+    padding: 0.25rem;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+}
+
+.navList li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobileMenu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobileMenu div {
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+}
+
+main {
+    background-color: var(--cinza);
+    margin: 8px;
+}
+
+main section {
+    padding: 20px;
+    height: 100vh;
+}
+
