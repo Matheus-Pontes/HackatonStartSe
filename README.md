@@ -12,6 +12,6 @@
 ## Integrantes
 - Bruno Zanini
 - Douglas Bernardes[Linkedin](https://www.linkedin.com/in/douglas-bernardes-397336165/) | [Github](https://github.com/Dougbernard)
-- Leticia Castanheira
+- Leticia Castanheira - [Linkedin](https://www.linkedin.com/in/castanheiraleticia/) | [Github](https://github.com/LeleCastanheira)
 - Matheus Pontes
 - Mayara Milanesi - [Linkedin](https://www.linkedin.com/in/mayara-milanesi-b114b2161/) | [Github](https://github.com/mayaramilanesi)
