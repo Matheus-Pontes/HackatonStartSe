@@ -14,4 +14,4 @@
 - Douglas Bernardes
 - Leticia Castanheira
 - Matheus Pontes
-- Mayara Milanesi
+- Mayara Milanesi - [Linkedin](https://www.linkedin.com/in/mayara-milanesi-b114b2161/) | [Github](https://github.com/mayaramilanesi)
