@@ -10,8 +10,8 @@
 - JavaScript
 
 ## Integrantes
-- Bruno Zanini[Linkedin](https://www.linkedin.com/in/bzclima/) | [Github](https://github.com/Bruno-Zanini-Cerqueira-Lima)
-- Douglas Bernardes[Linkedin](https://www.linkedin.com/in/douglas-bernardes-397336165/) | [Github](https://github.com/Dougbernard)
+- Bruno Zanini - [Linkedin](https://www.linkedin.com/in/bzclima/) | [Github](https://github.com/Bruno-Zanini-Cerqueira-Lima)
+- Douglas Bernardes -[Linkedin](https://www.linkedin.com/in/douglas-bernardes-397336165/) | [Github](https://github.com/Dougbernard)
 - Leticia Castanheira - [Linkedin](https://www.linkedin.com/in/castanheiraleticia/) | [Github](https://github.com/LeleCastanheira)
-- Matheus Pontes
+- Matheus Pontes - [Linkedin](https://www.linkedin.com/in/matheus-pontes-95b9761b5/) | [Github](https://github.com/Matheus-Pontes)
 - Mayara Milanesi - [Linkedin](https://www.linkedin.com/in/mayara-milanesi-b114b2161/) | [Github](https://github.com/mayaramilanesi)

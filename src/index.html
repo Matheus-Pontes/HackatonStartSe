@@ -14,17 +14,19 @@
 
     <header id="cabecalho">
         <nav>
-            <a href="#" class="logo">LOGO</a>
+            <a href="#" class="logo">
+                Hyper Finance
+            </a>
             <div class="mobileMenu">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
             </div>
 
+            <!-- ul = Lista não ordenada -->
             <ul class="navList">
                 <li><a href="#introducao" tabindex="0">Início</a></li>
-                <li><a href="#caseDeSucesso" tabindex="0">Sobre</a></li>
-                <li><a href="#planilhaDeGestao" tabindex="0">Projetos</a></li>
+                <li><a href="#planejamento" tabindex="0">Planejamento</a></li>
                 <li><a href="#interacaoComUsuario" tabindex="0">Simulação</a></li>
             </ul>
         </nav>
@@ -32,36 +34,114 @@
 
     <!-- Corpo da página -->
     <main>
+
+        <!-- Introdução com banner -->
         <section id="introducao">
-            <h1>Título</h1>
-            <article>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus nostrum nihil ab totam id quae expedita. Vel, ipsum quasi sed veritatis, eius culpa fuga temporibus ipsa obcaecati quibusdam hic inventore!</p>
-            </article>
+            <figure id="memeSilvioSantos">
+                <img src="img/banner.jpeg" alt="Banner de apresentação. Nome da empresa HyperFinance" />
+            </figure>
         </section>
 
-        <section id="caseDeSucesso">
-            <h1>Título</h1>
+        <!-- Planejamento -->
+        <section id="planejamento">
             <article>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus nostrum nihil ab totam id quae expedita. Vel, ipsum quasi sed veritatis, eius culpa fuga temporibus ipsa obcaecati quibusdam hic inventore!</p>
+                <div id="planejamentoIntroducao">
+                    <div class="texto">
+                        <h1>
+                            <span id="beleza">Beleza &#128077;</span></h1> 
+                        </h1>
+                        <h1>    
+                            mas como eu consigo me planejar?
+                        </h1>
+                        <div class="textos">
+                            <p>Fala sério, quem é que não tem vontade de ter as contas em dia e até ter um dinheirinho sobrando no fim do mês? Saiba que isso é possível, se você se planejar! E aqui nós separamos com carinho algumas coisas que vão te ajudar nisso:</p>
+
+                            <p>Antes de mais nada, é essencial que você saiba o básico de matemática e educação financeira. </p>
+                        </div>
+
+                    </div>
+                    <figure>
+                        <img src="img/07.png" alt="Imagem de planejamento com gráficos e construção do dinheiro">
+                    </figure>
+                </div>
+
+                <!-- Planejamento por cursos -->
+                <div id="planejamentoCurso">
+                    <figure>
+                        <img src="img/01.png" alt="Imagem de planejamento, com calculos, pagamentos e analise de cursos">
+                    </figure>
+
+                    <div>
+                        <h1>
+                            <span id="beleza">Cursos &#x1F393;</span></h1> 
+                        </h1>
+                        <ul>
+                            <li><a href="https://www.escolavirtual.gov.br/curso/170">Gestão de Finanças Pessoais - Banco Central</a></li>
+                            <li><a href="https://educacao-executiva.fgv.br/cursos/online/curta-media-duracao-online/como-fazer-investimentos-1">Fundação Getulio Vargas (FGV) – Como fazer investimentos</a></li>
+                            <li><a href="https://cursos.cvm.gov.br/">CVM – Educação financeira para jovens e Matemática Financeira Básica</a></li>
+                            <li><a href="https://www.serasa.com.br/ensina/dicas/curso-trilha-financeira/">Curso de Educação Financeira - Serasa</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Planejamento planilha -->
+                <div id="planejamentoPlanilha">
+                    <div>
+                        <h1>
+                            <span id="beleza">Controle de gastos &#128185;</span>
+                        </h1>
+                        
+                        <div class="textos">
+                            <p>Por essa você não esperava, né? Esse é nosso presente para você que chegou até aqui e quer sair de vez das dívidas. Disponibilizamos essa planilha completa onde você pode preencher com suas receitas e despesas e se planejar para que nada saia do controle. É só clicar no link para fazer o download:</p>
+                        </div>
+                        
+                        <a href="https://drive.google.com/drive/folders/1SMFZ8vm_wAdsq3FXRYqvXjvKWRROkq8w" target="blank" class="btnPlanilha">Acesso a planilha</a>
+                    </div>
+
+                    <figure>
+                        <img src="img/04.png" alt="Imagem de duas pessoas sentadas planejando os gastos.">
+                    </figure>
+                </div>
             </article>
         </section>
-
-        <section id="planilhaDeGestao">
-            <h1>Título</h1>
-            <article>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus nostrum nihil ab totam id quae expedita. Vel, ipsum quasi sed veritatis, eius culpa fuga temporibus ipsa obcaecati quibusdam hic inventore!</p>
-            </article>
-        </section>
-
+        
+        <!-- Interação com o usuário  -->
         <section id="interacaoComUsuario">
-            <h1>Vamos simular seus gastos</h1>
-            <article>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus nostrum nihil ab totam id quae expedita. Vel, ipsum quasi sed veritatis, eius culpa fuga temporibus ipsa obcaecati quibusdam hic inventore!</p>
-            </article>
-        </section>
+            <h1>Quer ver se vc é gastão ? </h1>
+            <p>temos uma calculadora que pode te ajudinha nisso</p>
+
+            <div class="calculadora">
+                <div>
+                    <label for="renda">
+                        Renda R$ <input type="text" id="renda">
+                    </label>
+                </div>
+                <div>
+                    <label for="despesa">
+                        Despesa R$ <input type="text" id="despesa">
+                    </label>
+                </div>
+                
+                <button id="btnCalcular">Calcular</button>  
+            </div>
+            <div class="seuResultado"></div>
+        </section>  
+
     </main>
     
+    <footer>
+        <figure>
+            <img src="img/chapeuProAlto.jpeg" alt="Imagem chapeu de formatura">
+        </figure>
+        <figure>
+            <img src="img/imagemMenina.jpeg" alt="Imagem de uma menina feliz com seu investimento">
+        </figure>
+        <figure>
+            <img src="img/imagemPorquinho.jpeg" alt="Imagem de um porquinho cheio de dinheiro">
+        </figure>
+    </footer>
 
+    <!-- Links para os arquivos JavaScript -->
     <script src="js/ctrlPage.js"></script>
     <script src="js/ctrlResponsive.js"></script>
 </body>

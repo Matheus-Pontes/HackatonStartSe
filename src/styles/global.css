@@ -12,25 +12,22 @@
 
 /* Variaveis de cores para acesso rápido */
 :root {
-    --preto: #000;
+    --preto: #212127;
     --cinza: ##EEEFE7;
-    --verde: #11C76F;
-    --azul: #365AD6;
+    --verde: #11c86e;
+    --azul: #345ad5;
     --branco: #fff;
+    --roxo: #28252a;
+    --roxoMenu: #AE3CAE;
 }
 
-a {
-    color: var(--branco);
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-a:hover {
-    opacity: 0.7;
+/* Cor de fundo do corpo da página */
+body {
+    background: var(--branco);
 }
 
 header {
-    background: var(--verde); 
+    background: var(--roxoMenu); 
     padding: 12px;
 }
 
@@ -40,19 +37,37 @@ header.travaNoTopo {
     width: 100%;
 }
 
+a {
+    color: var(--preto);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
 .logo {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
 
+.logo img {
+    width: 100%;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: var(--verde);   
+    background: var(--roxoMenu);   
     height: 8vh;
     padding: 0.25rem;
+}
+
+nav a {
+    color: var(--branco);
 }
 
 .navList {
@@ -68,7 +83,7 @@ nav {
 .mobileMenu {
     display: none;
     cursor: pointer;
-}
+} 
 
 .mobileMenu div {
     width: 32px;
@@ -82,8 +97,194 @@ main {
     margin: 8px;
 }
 
-main section {
-    padding: 20px;
+/* Aplicando estilo nas parte de introdução e planejamento */
+
+section#introducaoo {
+    color: var(--branco);
+    height: 100vh;  
+}
+figure#memeSilvioSantos {
     height: 100vh;
 }
 
+figure#memeSilvioSantos img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Planejamento */
+
+#planejamentoIntroducao {
+    height: 100vh;  
+    background-color: var(--branco);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+#planejamentoIntroducao h1 {
+    margin: 30px;
+    text-align: center;
+    font-size: 44px;
+    line-height: 49.5px;
+}
+
+#planejamentoIntroducao h1 span#beleza {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+#planejamentoIntroducao p {
+    margin: 12px auto;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+#planejamentoIntroducao figure {
+    width: 850px;
+    height: 500px;
+}
+
+#planejamentoIntroducao figure img {
+    width: 100%;
+    height: 100%;
+} 
+
+#planejamentoCurso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#planejamentoCurso h1 {
+    margin: 30px;
+    text-align: center;
+    font-size: 44px;
+    line-height: 49.5px;
+}
+
+#planejamentoCurso figure {
+    width: 850px;
+    height: 500px;
+}
+
+#planejamentoCurso figure img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#planejamentoCurso div ul li a {
+    font-size: 18px;
+}
+
+#planejamentoPlanilha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#planejamentoPlanilha h1 {
+    margin: 30px;
+    text-align: center;
+    font-size: 44px;
+    line-height: 49.5px;
+}
+
+#planejamentoPlanilha p {
+    margin: 12px auto;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.textos {
+    width: 600px;
+    margin: 5px auto;
+}
+
+.btnPlanilha {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 4px;
+    color: var(--branco);
+    background-color: var(--roxoMenu); 
+}
+
+/* Aplicando estilo nas parte de Interação com o usuário */
+section#interacaoComUsuario {
+    /* height: 80vh;  */
+    margin: 50px auto;
+    text-align: center;
+    color: var(--preto);
+}
+
+section#interacaoComUsuario h1, 
+section#interacaoComUsuario p{
+    margin: 10px;
+}
+
+section#interacaoComUsuario .calculadora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 50px;
+    padding: 12px;
+    color: var(--preto);
+}
+
+section#interacaoComUsuario .calculadora div {
+    margin: 20px;
+}
+
+section#interacaoComUsuario .calculadora label {
+    color: var(--preto);
+    display: inline-block;
+    padding: 4px auto;
+    margin: 4px auto;
+}
+
+section#interacaoComUsuario .calculadora input {
+    border: 2px solid var(--roxoMenu);
+    padding: 5px;
+    color: var(--preto);
+    background-color: var(--branco);
+    border-radius: 4px;
+    margin: 10px;
+}
+
+section#interacaoComUsuario .calculadora button{
+    padding: 8px; 
+    background-color: var(--roxoMenu);
+    color: var(--branco);
+    width: 20%;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+section#interacaoComUsuario .calculadora .seuResultado {
+    flex: 0.5;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+footer figure  {
+    width: 500px;
+    height: 300px;
+}
+
+footer figure img {
+    width: 100%;
+    height: 100%;
+}
