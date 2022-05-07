@@ -2,6 +2,7 @@
 @media (max-width: 999px) {
     body {
         overflow-x: hidden;
+        font-size: 87.5%;
     }
 
     .navList {
@@ -26,7 +27,7 @@
     }
 
     .mobileMenu {
-        display: block;
+        display: inline-block;
     }
 
     #planejamentoIntroducao, #planejamentoPlanilha {
@@ -35,7 +36,12 @@
 
     #planejamentoCurso {
         flex-wrap: wrap-reverse;
-        margin-top: 220px;
+    }
+
+    #planejamentoCurso div ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 

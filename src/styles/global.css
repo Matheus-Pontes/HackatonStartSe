@@ -34,7 +34,8 @@ header {
 header.travaNoTopo {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
+    padding: 12px;
 }
 
 a {
@@ -101,27 +102,20 @@ main {
 
 section#introducaoo {
     color: var(--branco);
-    height: 100vh;  
-}
-figure#memeSilvioSantos {
-    height: 100vh;
 }
 
-figure#memeSilvioSantos img {
+figure#banner img {
     width: 100%;
     height: 100%;
 }
 
 /* Planejamento */
-
 #planejamentoIntroducao {
-    height: 100vh;  
     background-color: var(--branco);
 
     display: flex;
     align-items: center;
     justify-content: center;
-    /* flex-wrap: wrap; */
 }
 
 #planejamentoIntroducao h1 {
@@ -132,20 +126,21 @@ figure#memeSilvioSantos img {
 }
 
 #planejamentoIntroducao h1 span#beleza {
-    font-size: 48px;
+    font-size: 3rem;
     text-transform: uppercase;
 }
 
 #planejamentoIntroducao p {
     margin: 12px auto;
     text-align: justify;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 32px;
 }
 
 #planejamentoIntroducao figure {
-    width: 850px;
-    height: 500px;
+    padding: 2rem;
+    width: 55rem;
+    height: 25rem;
 }
 
 #planejamentoIntroducao figure img {
@@ -167,8 +162,8 @@ figure#memeSilvioSantos img {
 }
 
 #planejamentoCurso figure {
-    width: 850px;
-    height: 500px;
+    width: 30rem;
+    height: 25rem;
 }
 
 #planejamentoCurso figure img {
@@ -176,6 +171,9 @@ figure#memeSilvioSantos img {
     height: 100%;
 }
 
+#planejamentoCurso div ul {
+    padding: 2rem;
+}
 
 #planejamentoCurso div ul li a {
     font-size: 18px;
@@ -197,13 +195,30 @@ figure#memeSilvioSantos img {
 #planejamentoPlanilha p {
     margin: 12px auto;
     text-align: justify;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 32px;
 }
 
+#planejamentoPlanilha figure {
+    width: 75rem;
+    height: 25rem;
+}
+
+#planejamento figure img {
+    width: 100%;
+    height: 100%;
+}
+
 .textos {
-    width: 600px;
+    width: 80%;
     margin: 5px auto;
+    padding: 0 3rem 0 3rem;
+    font-size: 3rem;
+}
+
+.planilha {
+    display: flex;
+    justify-content: center;
 }
 
 .btnPlanilha {
@@ -276,12 +291,14 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+
+    width: 100%;
 }
 
 footer figure  {
-    width: 500px;
-    height: 300px;
+    width: 25rem;
+    height: 15rem;
 }
 
 footer figure img {

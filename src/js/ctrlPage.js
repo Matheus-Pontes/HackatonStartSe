@@ -4,12 +4,11 @@
 const $menuSuperior = document.querySelector('#cabecalho');
 const classTravaNoTopo = 'travaNoTopo';
 
+// Elementos do simulador de gastos
 const $btnCalcular = document.querySelector('#btnCalcular');
 const $renda = document.querySelector('#renda');
 const $despesa = document.querySelector('#despesa');
 const $resultado = document.querySelector('.seuResultado');
-
-// Elementos do simulador de gastos
 
 // Controle do menu superior ao dar um scroll na página
 // Se tem scroll então fixa o menu superior no topo
