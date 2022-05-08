@@ -1,8 +1,14 @@
 # HacktonStartSe
-- Descrição do projeto
+- Nossa solução teve como foco no meio a ideia de educação financeira
+    - Foi o planejamento
+        - Trazendo cursos de exemplo e até mesmo disponibilizando uma planilha de gastos
+        - Ainda no software colocamos uma interação com o usuário para ele ter uma noção se anda gastando
+        muito ou não
+    - Por fim, lembre-se sempre de se planejar não só com dinheiro, mas na vida.
 
 ## Layout
-- Pode ser um gif da página o comportamento dela
+- O layout da página como um todo pode ser visto pelo seguinte link: 
+    - [FIGMA](https://www.figma.com/file/ZmbuknEjFJqAyJDkdtWf9k/ProjetoHackatonEducaFinanceira?node-id=0%3A1)
 
 ## Tecnologias 
 - HTML
