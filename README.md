@@ -1,4 +1,5 @@
 # HacktonStartSe
+- Projeto no ar: https://matheus-pontes.github.io/HackatonStartSe/src/index.html
 - Nossa solução teve como foco no meio a ideia de educação financeira
     - Foi o planejamento
         - Trazendo cursos de exemplo e até mesmo disponibilizando uma planilha de gastos
