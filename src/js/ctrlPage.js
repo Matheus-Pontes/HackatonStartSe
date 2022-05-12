@@ -10,6 +10,12 @@ const $renda = document.querySelector('#renda');
 const $despesa = document.querySelector('#despesa');
 const $resultado = document.querySelector('.seuResultado');
 
+// Elemento do modo escuro
+const $btnModoEscuro = document.querySelector("#btnModoEscuro");
+const $planejamentoCursoLinks = document.querySelectorAll('#planejamentoCurso div ul li a');
+const $interacaoUsuario = document.querySelector('#interacaoComUsuario');
+const $interacaoUsuarioCalculadora = document.querySelectorAll('.calculadora label');
+
 // Controle do menu superior ao dar um scroll na página
 // Se tem scroll então fixa o menu superior no topo
 window.addEventListener('scroll', function (e) {
@@ -18,6 +24,18 @@ window.addEventListener('scroll', function (e) {
     } else {
         $menuSuperior.classList.remove(classTravaNoTopo);
     }
+});
+
+$btnModoEscuro.addEventListener('click', function() {
+    console.log('Modo escuro ativado');
+
+    $btnModoEscuro.classList.toggle('ativo');
+    $btnModoEscuro.children[0].classList.toggle('ativo');
+    document.body.classList.toggle('ativo');
+
+    $planejamentoCursoLinks.forEach(a => a.classList.toggle('ativo'))
+    $interacaoUsuario.classList.toggle('ativo');
+    $interacaoUsuarioCalculadora.forEach(label => label.classList.toggle('ativo'));
 });
 
 // Calculadora...
