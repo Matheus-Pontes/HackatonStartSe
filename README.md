@@ -10,6 +10,10 @@
 ## Layout
 - O layout da página como um todo pode ser visto pelo seguinte link: 
     - [FIGMA](https://www.figma.com/file/ZmbuknEjFJqAyJDkdtWf9k/ProjetoHackatonEducaFinanceira?node-id=0%3A1)
+    - ![image](https://user-images.githubusercontent.com/62751571/170830943-a1a6da26-7375-441d-88c9-014ff5a36872.png)
+    - <br>
+    - ![image](https://user-images.githubusercontent.com/62751571/170831194-ab759ea9-fa7d-4094-9864-125b4b7daa51.png)
+
 
 ## Tecnologias 
 - HTML
