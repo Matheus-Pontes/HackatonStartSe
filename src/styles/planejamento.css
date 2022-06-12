@@ -1,0 +1,116 @@
+/* Planejamento */
+#planejamentoIntroducao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#planejamentoIntroducao h1 {
+    margin: 30px;
+    text-align: center;
+    font-size: 44px;
+    line-height: 49.5px;
+}
+
+#planejamentoIntroducao h1 span#beleza {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+#planejamentoIntroducao p {
+    margin: 12px auto;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+#planejamentoIntroducao figure {
+    padding: 2rem;
+    width: 55rem;
+    height: 25rem;
+}
+
+#planejamentoIntroducao figure img {
+    width: 100%;
+    height: 100%;
+} 
+
+#planejamentoCurso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#planejamentoCurso div ul li a.ativo {
+    color: var(--branco);
+}
+
+#planejamentoCurso h1 {
+    margin: 30px;
+    text-align: center;
+    font-size: 44px;
+    line-height: 49.5px;
+}
+
+#planejamentoCurso figure {
+    width: 30rem;
+    height: 25rem;
+}
+
+#planejamentoCurso figure img {
+    width: 100%;
+    height: 100%;
+}
+
+#planejamentoCurso div ul {
+    padding: 2rem;
+}
+
+#planejamentoCurso div ul li a {
+    font-size: 18px;
+}
+
+#planejamentoPlanilha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#planejamentoPlanilha h1 {
+    margin: 30px;
+    text-align: center;
+    font-size: 44px;
+    line-height: 49.5px;
+}
+
+#planejamentoPlanilha p {
+    margin: 12px auto;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+#planejamentoPlanilha figure {
+    width: 75rem;
+    height: 25rem;
+}
+
+#planejamento figure img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.planilha {
+    display: flex;
+    justify-content: center;
+}
+
+.btnPlanilha {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 4px;
+    color: var(--branco);
+    background-color: var(--roxoMenu); 
+}

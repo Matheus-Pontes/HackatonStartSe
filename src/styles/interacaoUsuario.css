@@ -1,0 +1,64 @@
+/* Aplicando estilo nas parte de Interação com o usuário */
+section#interacaoComUsuario {
+    /* height: 80vh;  */
+    margin: 50px auto;
+    text-align: center;
+    color: var(--preto);
+}
+
+section#interacaoComUsuario h1, 
+section#interacaoComUsuario p{
+    margin: 10px;
+}
+
+section#interacaoComUsuario .calculadora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 50px;
+    padding: 12px;
+    color: var(--preto);
+}
+
+section#interacaoComUsuario .calculadora div {
+    margin: 20px;
+}
+
+section#interacaoComUsuario .calculadora label {
+    color: var(--preto);
+    display: inline-block;
+    padding: 4px auto;
+    margin: 4px auto;
+}
+
+section#interacaoComUsuario .calculadora input {
+    border: 2px solid var(--roxoMenu);
+    padding: 5px;
+    color: var(--preto);
+    background-color: var(--branco);
+    border-radius: 4px;
+    margin: 10px;
+}
+
+section#interacaoComUsuario .calculadora button{
+    padding: 8px; 
+    background-color: var(--roxoMenu);
+    color: var(--branco);
+    width: 20%;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+section#interacaoComUsuario .calculadora label.seuResultado {
+    flex: 0.5;
+}
+
+section#interacaoComUsuario.ativo {
+    color: var(--branco);
+} 
+
+section#interacaoComUsuario .calculadora label.ativo {
+    color: var(--branco);
+} 

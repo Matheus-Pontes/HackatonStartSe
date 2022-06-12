@@ -1,0 +1,8 @@
+section#introducaoo {
+    color: var(--branco);
+}
+
+figure#banner img {
+    width: 100%;
+    height: 100%;
+}

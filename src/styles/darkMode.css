@@ -1,0 +1,30 @@
+.darkMode {
+    display: inline-block;
+    padding: 1rem;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    border: 1px solid var(--preto);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.darkMode .ballDark {
+    display: inline-block;
+    padding: 0.75rem;
+    border-radius: 50%;
+    background-color: #212127;
+    transition: ease-in-out 0.5s;
+}
+
+.darkMode.ativo {
+    border-color: var(--branco);
+    transition: ease-in-out border-color 0.5s;
+}
+
+.ballDark.ativo {
+    background-color: var(--branco);
+    transition: ease-in-out 0.5s;
+}
