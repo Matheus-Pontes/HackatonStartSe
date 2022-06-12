@@ -27,8 +27,6 @@ window.addEventListener('scroll', function (e) {
 });
 
 $btnModoEscuro.addEventListener('click', function() {
-    console.log('Modo escuro ativado');
-
     $btnModoEscuro.classList.toggle('ativo');
     $btnModoEscuro.children[0].classList.toggle('ativo');
     document.body.classList.toggle('ativo');
